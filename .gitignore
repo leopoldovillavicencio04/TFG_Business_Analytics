@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+env/
+venv/
+
+# Data (no subir datos crudos grandes a GitHub)
+data/raw/*.csv
+data/processed/*.csv
+
+# Figures generadas (se regeneran con los scripts)
+# figures/  ← comenta esta línea si quieres subir las figuras
+
+# IDE
+.spyderproject.cfg
+.spyproject/
+.idea/
+*.spydata
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
